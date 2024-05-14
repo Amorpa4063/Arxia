@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = []
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+authors = []
+rust-version = "1.85.0"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/arxialayer1/arxia"
+homepage = "https://arxia.network"
+description = "Layer 1 blockchain for offline-first mesh consensus"

@@ -1,0 +1,16 @@
+/target/
+**/*.rs.bk
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.docx
+*.pdf
+DOCS/
+.env
+.env.local
+lcov.info
+*.profraw
