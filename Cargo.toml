@@ -2,6 +2,7 @@
 resolver = "2"
 members = [
     "crates/arxia-core",
+    "crates/arxia-crypto",
 ]
 
 [workspace.package]
@@ -15,7 +16,12 @@ homepage = "https://arxia.network"
 description = "Layer 1 blockchain for offline-first mesh consensus"
 
 [workspace.dependencies]
+ed25519-dalek = { version = "2", features = ["rand_core"] }
+blake3 = "1"
+chacha20poly1305 = "0.10"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 hex = "0.4"
+rand = "0.8"
 thiserror = "1"
+arxia-core = { path = "crates/arxia-core" }
