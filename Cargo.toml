@@ -3,6 +3,7 @@ resolver = "2"
 members = [
     "crates/arxia-core",
     "crates/arxia-crypto",
+    "crates/arxia-lattice",
 ]
 
 [workspace.package]
@@ -25,3 +26,4 @@ hex = "0.4"
 rand = "0.8"
 thiserror = "1"
 arxia-core = { path = "crates/arxia-core" }
+arxia-crypto = { path = "crates/arxia-crypto" }
