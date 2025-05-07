@@ -1,0 +1,12 @@
+[package]
+name = "arxia-transport"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Transport layer abstraction for Arxia (LoRa, BLE, SMS, satellite)"
+authors = []
+
+[dependencies]
+arxia-core = { path = "../arxia-core" }
+rand = { workspace = true }
