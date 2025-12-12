@@ -1,0 +1,11 @@
+[package]
+name = "arxia-wasm"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "WebAssembly bindings for Arxia (future)"
+authors = []
+
+[dependencies]
+arxia-core = { path = "../arxia-core" }
