@@ -1,0 +1,13 @@
+[package]
+name = "mesh_relay"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Example: mesh relay forwarding"
+authors = []
+
+[dependencies]
+arxia-core = { path = "../../crates/arxia-core" }
+arxia-transport = { path = "../../crates/arxia-transport" }
+arxia-relay = { path = "../../crates/arxia-relay" }
