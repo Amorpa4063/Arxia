@@ -1,0 +1,13 @@
+[package]
+name = "partition_reconciliation"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Example: network partition reconciliation using CRDTs"
+authors = []
+
+[dependencies]
+arxia-core = { path = "../../crates/arxia-core" }
+arxia-crdt = { path = "../../crates/arxia-crdt" }
+arxia-lattice = { path = "../../crates/arxia-lattice" }
