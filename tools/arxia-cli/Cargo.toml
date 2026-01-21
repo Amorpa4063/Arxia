@@ -1,0 +1,18 @@
+[package]
+name = "arxia-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Arxia command-line interface"
+authors = []
+
+[[bin]]
+name = "arxia-cli"
+path = "src/main.rs"
+
+[dependencies]
+arxia-core = { path = "../../crates/arxia-core" }
+arxia-crypto = { path = "../../crates/arxia-crypto" }
+arxia-did = { path = "../../crates/arxia-did" }
+hex = { workspace = true }
