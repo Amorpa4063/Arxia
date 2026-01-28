@@ -1,0 +1,24 @@
+[package]
+name = "arxia-node"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Arxia full node binary"
+authors = []
+
+[[bin]]
+name = "arxia-node"
+path = "src/main.rs"
+
+[dependencies]
+arxia-core = { path = "../../crates/arxia-core" }
+arxia-crypto = { path = "../../crates/arxia-crypto" }
+arxia-lattice = { path = "../../crates/arxia-lattice" }
+arxia-consensus = { path = "../../crates/arxia-consensus" }
+arxia-gossip = { path = "../../crates/arxia-gossip" }
+arxia-finality = { path = "../../crates/arxia-finality" }
+arxia-transport = { path = "../../crates/arxia-transport" }
+arxia-storage = { path = "../../crates/arxia-storage" }
+tracing = "0.1"
+tracing-subscriber = "0.3"
